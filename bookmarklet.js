@@ -91,7 +91,7 @@ var Main = {
 		}
 		
 		if(!jQueryCheck()) {
-			this.importScript("http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js");
+			this.importScript("https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js");
 			var interval = setInterval(function () {
 				if (jQueryCheck()) {
 					clearInterval(interval);
